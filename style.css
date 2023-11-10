@@ -1,0 +1,457 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+.background{
+    height: 90vh;
+    width: 100%;
+    background-image: url(./images/Places-To-Visit-In-Italy.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    /* background-color:#ffccff; */
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 20px;  
+}
+.tourism-symbol{
+     width: 10%;
+     height: 70px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.text{
+
+    width: 90%;
+    color:black;
+    font-size: 23px;
+    font-weight: bold;
+}
+.list-items{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 28px;
+}
+.list{
+    height: 70px;
+    width: 30%;
+    /* background-color: yellow; */
+    font-size: 18px;
+    font-family: 'segoe ui';
+    font-weight: 300;
+    
+}
+.items:hover{
+   background-color: black;
+   color: white;
+   border-radius: 5px;
+   padding: 3px 5px;
+   cursor: pointer;
+   transition: .6s;
+
+}
+.tagline{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    
+}
+.read{
+    width: max-content;
+    text-align:center;
+    font-size: 25px;
+    background-color: thistle;
+    font-family: 'segoe ui';
+
+    border-radius: 5px;
+}
+.read-a{
+    font-size: 80px;
+    /* background-color: red; */
+    text-align: center;
+    padding: 20px;
+    font-family: 'segoe ui';
+    color: aliceblue;
+}
+.Exp{
+   padding: 14px 16px;
+   font-size: 18px;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+   margin-top: 50px;
+   position: absolute;
+   left: 680px;
+}
+.booking{
+    width: 80%;
+    background-color:rgba(255, 255, 255, .3);
+    padding: 20px 0px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;  
+
+}
+.inp{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: 900;
+    row-gap:5px;
+    padding-left: 5px;
+}
+input{
+    height: 50px;
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.book{
+    font-size: 18px;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'segoe ui';
+    padding:10px 20px;
+    border: 1px solid black;
+    position: absolute;
+    top: 470px;
+    cursor: pointer;
+
+}
+.About{
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    /* background-color: yellow; */
+}
+.info{
+
+ text-align: center;
+ font-family: 'segoe ui';
+ font-size: 22px;
+ text-align: center;
+
+}
+.fa-solid{
+    color:#40d8e9;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;   
+    margin: 20px 0px;
+    
+}
+.highlight{
+    color: #f0571b;
+    font-size: larger;
+    font-family: 'poppins';
+}
+.container-rooms{
+
+    width: 100%;
+    padding: 15px 15%;
+    background-color:#E5D7E5;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.best{ 
+    font-size: 28px;
+    font-family: 'segoe ui';
+    text-align: center;
+    color:#080708;
+    padding-top: 10px;
+   }
+.ted{
+    font-size: 16px;
+    font-size: 18px;
+    font-family: 'segoe ui';
+    text-align: center;
+    padding-top: 6px;
+}
+.container{
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   row-gap: 25px;
+}
+.room-1{
+     height: 400px;
+    width: 30%;
+    background-color: rgb(247, 242, 253);
+    overflow: hidden;
+    cursor: pointer;
+}
+.room-a{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(12, 10, 10);
+    cursor: pointer;
+}
+.Rooms{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    transition: .3s;
+}
+.Rooms:hover{
+    transform: scale(1.15);
+}
+.text-a{ 
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    color: rgb(7, 7, 7);
+}
+
+.text-b{ 
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: rgb(8, 8, 8);
+}
+.text-c{ 
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    color: rgb(9, 9, 9);
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: rgb(244, 237, 237);
+    font-size: 15px;
+    font-family: 'Segoe UI';
+}
+.room-details{
+  
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px;
+}
+.cursor-pointer{
+    width: 100%;
+    padding: 15px 15%;
+    background-color: rgb(67, 59, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}
+.pointer{
+    width: 100%;
+    height: 500px;
+    background-color: tan;
+    overflow: hidden;
+}
+.images{
+    height: 500px;
+    width: 900%;
+    background-color: rgb(84, 45, 161);
+    display: flex;
+    overflow: hidden; 
+   
+}
+.slide1{
+    width: 30% ;
+    height: 500px;
+    background-color: firebrick;
+    font-size: 80px;
+}
+.img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.food{
+    width: 100%;
+    height: 700px;
+    /* background-color: fuchsia; */
+    padding: 10px;
+    display: flex;
+    position: relative;
+}
+.food-items{
+    width: 50%;
+    height: 90vh;
+    
+}
+.img-a{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    
+}
+
+.food-details{
+    width: 500px;
+    height: 300px;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.As{
+    font-size: 37px;
+    font-family: 'segoe UI';
+    color: black;
+
+}
+.btn-a{
+      height: 60px;
+      width: 200px;
+      cursor: pointer;
+}
+.premium{
+    height: 100vh;
+    width: 100%;
+    background-color:  rgb(233, 229, 229);
+    position: relative;
+}
+.premium-img{
+    width: 47%;
+    height: 95vh;
+    /* background-color: palevioletred; */
+    position: absolute;
+    left: 789px;
+    top: 20px;
+    
+}
+.prem{
+    width: 100%;
+    height: 100%;
+}
+.detailed{
+    width: 400px;
+    height:90vh;
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+      
+}
+.card1{
+    height:30%;
+    width: 100%;
+    /* background-color: rgb(233, 229, 229); */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    row-gap: 10px;
+}
+.card2{
+    height:30%;
+    width: 100%;
+    /* background-color:  rgb(233, 229, 229); */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    row-gap: 10px;
+}
+.card3{
+    height:30%;
+    width: 100%;
+    /* background-color: rgb(233, 229, 229); */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    row-gap: 9px;
+
+}
+.end{
+    height: 300px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+}
+.head{
+    font-size: 35px;
+    color: rgb(198, 26, 26);
+    padding-top: 40px;
+    padding-left: 50px;
+    font-family: 'segoe UI';
+}
+.icons{
+    height: 80px;
+    width: 400px;
+    display: flex;
+    gap: 35px;
+    padding-left: 55px;
+    padding-top: 15px;
+}
+.icon-img{
+    height: 50px;
+    width:  12%;
+     cursor: pointer;
+
+}
+.pay{
+    padding-left: 80px;
+}
+.head-a{
+    padding-left:70px;
+}
+.icon-imga{
+    height: 50px;
+    width: 30%
+}
+.head-b{
+    padding-left: 170px;
+}
+.icons-g{
+    /* height: 100px;
+    width:200px; */
+   
+    margin-left: 120px;
+    display: flex; 
+}
+.label{
+    display: flex;
+    padding-left: -100px;
+}
+.sub{
+ height: 50px;
+ width: 120px;
+ background-color: red;
+ color: azure;
+ font-size: 18px;
+ font-family: 'segoe UI';
+
+}
